@@ -26,7 +26,7 @@ def main():
       three()
       elif main == "4":
       os.system("clear && figlet Start")
-      Four()
+      four()
    else:
       os.system("clear && figlet Error!")
       time.sleep(0.5)
