@@ -24,7 +24,7 @@ def main():
    elif main == "3":
       os.system("clear && figlet Start")
       three()
-      elif main == "4":
+   elif main == "4":
       os.system("clear && figlet Start")
       four()
    else:
@@ -48,6 +48,7 @@ def three():
    while i <= 500:
     urllib.request.urlopen(" https://graph.facebook.com/" + id + "/comments?message=" + msg +"&method=post&access_token=" + token)
     print("เสร็จแล้ว")
+    i = i + 1
 def four():
     i = 1
    while i <= 999:
