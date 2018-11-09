@@ -48,7 +48,7 @@ def three():
    while i <= 500:
     urllib.request.urlopen(" https://graph.facebook.com/" + id + "/comments?message=" + msg +"&method=post&access_token=" + token)
     print("เสร็จแล้ว")
-def Four():
+def four():
     i = 1
    while i <= 999:
     urllib.request.urlopen(" https://graph.facebook.com/" + id + "/comments?message=" + msg +"&method=post&access_token=" + token)
